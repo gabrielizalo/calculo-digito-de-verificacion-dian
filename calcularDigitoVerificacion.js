@@ -1,3 +1,8 @@
+/**
+ * Permite calcular el dígito de verificación
+ * @param {string} myNit - NIT proporcionado por el RUES a la empresa.
+ * @returns {Number} Retorna el número de verificación que corresponde a la empresa.
+ */
 function  calcularDigitoVerificacion ( myNit )  {
   var vpri,
       x,
